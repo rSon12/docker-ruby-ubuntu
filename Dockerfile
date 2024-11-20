@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM ubuntu:trusty-20190425
 
 RUN locale-gen en_US en_US.UTF-8 \
   && dpkg-reconfigure locales
